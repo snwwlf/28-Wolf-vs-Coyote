@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://www.britannica.com/animal/gray-wolf" target="_blank">Wolf</a></li>
+                    <li><a href="https://www.britannica.com/animal/coyote-mammal" target="_blank">Coyote</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+
+            <h1>About The Game</h1>
+        </header>
+
+        <main id="aboutPage">
+            <h2>How to Play</h2>
+
+            <p>To begin gameplay, set the Evasive Number by clicking the respective button that picks 
+                a number between 1 and 6. This represents the number the Coyote player will use to protect
+                itself from receiving damage. For example, the evasive number is set to 3, meaning whenever 
+                the coyote rolls a 3, regardless of what the Wolf rolls, they will never lose points. This is
+                known as evading an attack.</p>
+
+            <p>Each player, the Wolf and Coyote, start the game with 20 health points, which are displayed under
+                their respective images. Throughout the game, players will lose points until a player reaches 0. 
+                Whichever player with points remaining wins the game.</p>
+            
+            <p>Once the evasive button is set, gameplay will begin by clicking the Roll Dice button. This will display
+                updated score, what number each player rolled, and a corresponding message below as to what occurred
+                during that round of gameplay.
+            </p>
+
+            <h2>Round Outcomes</h2>
+
+            <h3>Wolf Critical Hit</h3>
+
+            <p>When the Wolf player rolls a 6, they deal a critical hit upon the Coyote player where they lose 
+                2 points instead of 1.</p>
+
+            <h3>Evasive Roll</h3>
+
+            <p>If the Coyote player rolls a number that matches their set Evasive number, for example, a 4, whenever
+                they roll a 4, neither player loses points as Coyote has evaded an attack by the Wolf. </p>
+            
+            <h3>Coyote High-Score Evasive</h3>
+
+            <p>If the Evasive number is set to 6, whenever the coyote player rolls a 6, the wolf player loses 1 point.</p>
+
+            <h3>Standard Win</h3>
+
+            <p>The Wolf and Coyote players each roll a die with numbers 1 through 6. Whoever rolls the higher number, with 6
+                being the highest one can roll, they will win that round of gameplay. The winning player will keep their 
+                current score while the losing player subtracts one point.</p>
+
+            <h3>Tie</h3>
+
+            <p>Should each player roll their respective die and have the same number, neither player loses points.</p>
+
+            <h2>Winning The Game</h2>
+
+            <p>Whichever player has points remaining after numerous rounds of gameplay, having not reached zero,
+                is declared the winner. There is a respective banner displayed declaring the winner outright.</p>
+
+            <h2>Game Reset</h2>
+
+            <p>When the game ends once a player is declared the winner, or if the players wish to restart, they can 
+                click the Reset button to start a new game.</p>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Joel Hovell Creations.</p>
+        </footer>
+    </body>
+</html>
